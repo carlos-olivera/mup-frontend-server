@@ -2,6 +2,11 @@
 
 This is the front end server used by Meteor Up in front of meteor apps. This is the latest version of nginx bundled as a docker image. It is configured to run with every app deployed with Meteor Up. But, this is not a Load Balancer.
 
+## Modification in order to reach the following objetives:
+
+- ReactionCommerce deploy (check: https://github.com/reactioncommerce/reaction)
+- Force SSL
+
 ## For SSL Support
 
 We use this for SSL support for Mup.
